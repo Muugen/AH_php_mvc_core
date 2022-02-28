@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace anthonyhuynh\PhpMvcFramework;
 
-use app\core\db\DbModel;
-use app\core\db\DataBase;
+use anthonyhuynh\PhpMvcFramework\db\DbModel;
+use anthonyhuynh\PhpMvcFramework\db\DataBase;
 
 /**
  * Class Application
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core
+ * @package anthonyhuynh\PhpMvcFramework
  */
 
 

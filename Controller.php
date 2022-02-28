@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace anthonyhuynh\PhpMvcFramework;
 
-use app\core\middlewares\BaseMiddleware;
+use anthonyhuynh\PhpMvcFramework\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core
+ * @package anthonyhuynh\PhpMvcFramework
  */
 
 class Controller
@@ -17,7 +17,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \anthonyhuynh\PhpMvcFramework\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -39,7 +39,7 @@ class Controller
     /**
      * Get the value of middlewares
      *
-     * @return  \app\core\middlewares\BaseMiddleware[]
+     * @return  \anthonyhuynh\PhpMvcFramework\middlewares\BaseMiddleware[]
      */ 
     public function getMiddlewares(): array
     {

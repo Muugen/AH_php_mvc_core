@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\exception;
+namespace anthonyhuynh\PhpMvcFramework\exception;
 
 /**
  * Class ForbiddenException
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\exception
+ * @package anthonyhuynh\PhpMvcFramework\exception
  */
 
 class ForbiddenException extends \Exception

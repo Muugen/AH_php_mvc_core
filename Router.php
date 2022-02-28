@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace anthonyhuynh\PhpMvcFramework;
 
-use app\core\exception\NotFoundException;
+use anthonyhuynh\PhpMvcFramework\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core
+ * @package anthonyhuynh\PhpMvcFramework
  */
 
 class Router 
@@ -20,8 +20,8 @@ class Router
     /**
      * Router Constructor
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \anthonyhuynh\PhpMvcFramework\Request $request
+     * @param \anthonyhuynh\PhpMvcFramework\Response $response
      */
 
     public function __construct(Request $request, Response $response)
@@ -53,7 +53,7 @@ class Router
         }
         if (is_array($callback)){
             /**
-             * @var \app\core\Controller $controller
+             * @var \anthonyhuynh\PhpMvcFramework\Controller $controller
              */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;

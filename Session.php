@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace anthonyhuynh\PhpMvcFramework;
 
 /**
  * Class Session
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core
+ * @package anthonyhuynh\PhpMvcFramework
  */
 
 class Session

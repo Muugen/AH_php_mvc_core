@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\db;
+namespace anthonyhuynh\PhpMvcFramework\db;
 
-use app\core\Application;
+use anthonyhuynh\PhpMvcFramework\Application;
 
 /**
  * Class DataBase
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\db
+ * @package anthonyhuynh\PhpMvcFramework\db
  */
 
 class DataBase

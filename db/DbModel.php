@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\db;
+namespace anthonyhuynh\PhpMvcFramework\db;
 
-use app\core\Model;
-use app\core\Application;
+use anthonyhuynh\PhpMvcFramework\Model;
+use anthonyhuynh\PhpMvcFramework\Application;
 
 /**
  * Class DbModel
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\db
+ * @package anthonyhuynh\PhpMvcFramework\db
  */
 
 abstract class DbModel extends Model

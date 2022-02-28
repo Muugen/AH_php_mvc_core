@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\form;
+namespace anthonyhuynh\PhpMvcFramework\form;
 
 /**
  * Class TextAreaField
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\form
+ * @package anthonyhuynh\PhpMvcFramework\form
  */
 
 class TextAreaField extends BaseField

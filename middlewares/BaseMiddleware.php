@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\middlewares;
+namespace anthonyhuynh\PhpMvcFramework\middlewares;
 
 /**
  * Class BaseMiddleware
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\middlewares
+ * @package anthonyhuynh\PhpMvcFramework\middlewares
  */
 
 abstract class BaseMiddleware

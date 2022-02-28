@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace anthonyhuynh\PhpMvcFramework;
 
-use app\core\db\DbModel;
+use anthonyhuynh\PhpMvcFramework\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core
+ * @package anthonyhuynh\PhpMvcFramework
  */
 
 abstract class UserModel extends DbModel

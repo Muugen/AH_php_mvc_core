@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace anthonyhuynh\PhpMvcFramework\form;
 
-use app\core\Model;
+use anthonyhuynh\PhpMvcFramework\Model;
 
 /**
  * Class Form
  * 
  * @author Anthony HUYNH <anthonyhuynh1204@gmail.com>
- * @package app\core\form
+ * @package anthonyhuynh\PhpMvcFramework\form
  */
 
 
