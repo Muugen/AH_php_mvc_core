@@ -1,0 +1,15 @@
+{
+    "name": "anthonyhuynh/php_mvc_core",
+    "autoload": {
+        "psr-4": {
+            "Anthonyhuynh\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anthony huynh",
+            "email": "anthonyhuynh1204@gmail.com"
+        }
+    ],
+    "require": {}
+}
