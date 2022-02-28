@@ -2,7 +2,7 @@
     "name": "anthonyhuynh/php_mvc_core",
     "autoload": {
         "psr-4": {
-            "anthonyhuynh\\PhpMvcFramework\\": "src/"
+            "anthonyhuynh\\PhpMvcFramework\\": "."
         }
     },
     "authors": [
