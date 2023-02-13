@@ -101,12 +101,12 @@ abstract class Model
     public function errorMessages()
     {
         return [
-            self::RULE_REQUIRED => 'Ce champ est obligatoire',
-            self::RULE_EMAIL => 'Ce champ doit être une adresse email valide',
+            self::RULE_REQUIRED => 'Ce champ est obligatoire.',
+            self::RULE_EMAIL => 'Ce champ doit être une adresse email valide.',
             self::RULE_MIN => 'La longueur minimale de ce champ doit être de {min}.',
             self::RULE_MAX => 'La longueur maximale de ce champ doit être de {min}.',
             self::RULE_MATCH => 'Ce champ doit être le même que celui de {match}.',
-            self::RULE_UNIQUE => 'Record with this {field} already exists',
+            self::RULE_UNIQUE => 'Un enregistrement avec {field} existe déjà.',
         ];
     }
 
